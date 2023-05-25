@@ -1,0 +1,30 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+    background: gray;
+}
+
+header{
+    margin: 20px 20px;
+}
+
+main {
+
+}
+
+.caixa-texto {
+    display: inline-block;
+}
+
+.label-area {
+    display:block;
+    /*text-align: top;*/
+}
+
+.botoes {
+    display: inline-block
+}
+
+.boneca {
+    position:absolute;
+    display:inline-block;
+}
