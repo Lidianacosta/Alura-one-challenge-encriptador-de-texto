@@ -11,27 +11,28 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <img class="logo-alura" src="Aluralogo.png" alt="Logo Alura">
     </header>
     <main>
-        <div class="centralizar-meio-pagina">
-            <div class="texto-label">
-                <label class="label-area" for="texto">Digite seu texto</label>
-                <textarea class="caixa-texto" id="texto" cols="30" rows="20" ></textarea>
-            </div>
-            <div class="botoes"> 
-                <button>criptografar</button>
-                <button>descriptografar</button>
-            </div>
+        <div class="centralizar">
+            <section class="parte-I">
+                <textarea class="caixa-texto" id="texto" cols="105" rows="25"placeholder="Digite seu texto"></textarea>
+                <p>❗digite letras minusculas e sem acentos</p>
+                <button class="codificar">Codificar</button>
+                <button class="decodificar">Decodificar</button>
 
-            <img class="boneca" src="Boneca.png" alt="Boneca com umuma lupa">
+            </section>
+            <section class="parte-II ">
+                <div>
+                    <img class="boneca" src="Boneca.png" alt="Boneca com umuma lupa">
+                    <h1>Nenhuma mensagem encontrada</h1>
+                    <p>digite um texto que você deseja<br>criptografar ou descriptografar</p>
+                </div>
+            </section>
         </div>
     </main>
     <script src="script.js"></script>
 </body>
 
 </html>
-
-
-
