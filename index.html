@@ -5,6 +5,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Decodificador</title>
@@ -14,23 +18,30 @@
     <header class="cabecalho">
         <img class="logo-alura" src="Aluralogo.png" alt="Logo Alura">
     </header>
+
     <main>
-        <div class="centralizar">
-            <section class="parte-I">
-                <textarea class="caixa-texto" id="texto" cols="105" rows="25"placeholder="Digite seu texto"></textarea>
-                <p>❗digite letras minusculas e sem acentos</p>
+
+        <section class="parte-I">
+            <textarea class="caixa-texto" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+
+            <div>
+                <h6>❗digite letras minusculas e sem acentos</h6>
+            </div>
+
+            <div class="botoes">
                 <button class="codificar">Codificar</button>
                 <button class="decodificar">Decodificar</button>
+            </div>
 
-            </section>
-            <section class="parte-II ">
-                <div>
-                    <img class="boneca" src="Boneca.png" alt="Boneca com umuma lupa">
-                    <h1>Nenhuma mensagem encontrada</h1>
-                    <p>digite um texto que você deseja<br>criptografar ou descriptografar</p>
-                </div>
-            </section>
-        </div>
+        </section>
+
+        <section class="parte-II ">
+
+            <textarea class="mensagem" cols="20 " rows="10" placeholder=""></textarea>
+            <button class="copiar">Copiar</button>
+            <h1>Nenhuma mensagem encontrada</h1>
+            <p>digite um texto que você deseja<br>criptografar ou descriptografar</p>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>

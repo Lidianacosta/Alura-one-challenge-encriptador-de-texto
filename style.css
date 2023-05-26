@@ -1,65 +1,92 @@
-body { 
-    font-family: 'Montserrat', sans-serif;
-    background: lightblue;
-    color : purple;
+* {
+   background: #E5E5E5;
+   font-family: "inter",sans-serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height:150%;
 }
 
-header{
-    margin: 20px 20px;
+.logo-alura {
+   margin-left: 10px;
+   padding-top: 10px;
+   width: 2%;
 }
+
 
 main {
-   width: 940px;
-   margin: 0 auto;
+   display: flex;
+   margin-bottom: 50px;
+   margin-left: 80px;
 }
 
+.caixa-texto {
+   border: none;
+   color: #0A3871;
+   margin-top: 90px;
+   text-transform: lowercase;
+}
+
+::placeholder {
+   color:#0A3871;
+}
+
+.caixa-texto:focus {
+   outline: none;
+}
+
+.mensagem {
+   background: #FFFFFF;
+   background-image: url(Boneca.png);
+   background-repeat: no-repeat;
+   border: none;
+   border-radius: 24px;
+   color:#0A3871;
+   margin-left: 98px;
+   margin-top:20px;
+   padding-left: 20px;
+   position:fixed;
+}
+
+.mensagem:focus {
+   outline: none;
+}
+
+.botoes {
+   display:flex;
+   margin-top: 18px;
+}
+
+
+
+body {}
+
+
 .parte-I {
-   position:absolute;
+   
 }
 
 .parte-I p {
-   text-align: center;
-   font-size: 10px;
-   padding: 1em;
-   display:block;
+
 }
 
 
 .parte-I textarea {
-   width: 40%;
-   display:block;
-   margin: 0 0 0 15% ;
-   border: none;
-   box-shadow: none;
-   background:transparent;
+
 }
 
 .codificar {
-   display:inline-block;
-   margin: 0 0 0 35% ;
+
 }
 
 .parte-II {
-   position: absolute;
-   margin: 0  20px  0 70%;
-   background:#FFFFFF;
-   text-align: center;
-   border: 5px solid ;
-   border-radius: 50px;
-   padding: 30px 0 80px 0;
-   width: 30%;
-   height: 30%;
+
  }
 
 .parte-II h1 {
-   font-weight: bold;
-   font-size: 16px ;
-   padding:1em;
+
  }
 
 
 .parte-II img {
-   width: 40%;
-   display:inline-block;
-   background: #FFFFFF;
+
 }
